@@ -11,7 +11,7 @@ def index(request):
     bbs = Bb.objects.all()
 
     # template = loader.get_template('bboard/index.html')
-    bbs = Bb.objects.order_by('-published')
+    # bbs = Bb.objects.order_by('-published')
     # context = {'bbs': bbs}
     # return HttpResponse(template.render(context, request))
 

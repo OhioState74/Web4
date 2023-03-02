@@ -21,9 +21,9 @@ from bboard.views import index
 
 urlpatterns = [
 
-    path('bboard/', views.index),
+    # path('bboard/', views.index),
     path('admin/', admin.site.urls),
-    path('', index),
+    # path('', index),
     path('about/', views.about),
     path('', include('bboard.urls')),
     path('hello/', views.hello),
